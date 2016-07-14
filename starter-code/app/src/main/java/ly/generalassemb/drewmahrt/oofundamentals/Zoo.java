@@ -23,6 +23,10 @@ public class Zoo {
         animals.add(animal);
     }
 
+    public void removeAnimal(int i){
+        animals.remove(i);
+    }
+
     public ArrayList<Animal> getAnimals(){
         return animals;
     }
